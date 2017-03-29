@@ -1,0 +1,24 @@
+﻿/*首页*/
+html {width: 100%;}
+.container{max-width:10rem; margin:  0 auto;}
+
+.container .header{width: 7.5rem; height: 1.55rem; padding-top: 0.44rem; margin:0 auto;}
+.container .header .logo{float: left; width: 3.53rem; height: 1.23rem; }
+.container .header .logo img{width: 3.52rem; height: 0.66rem;}
+.container .header .logo p{font:normal 0.16rem "microsoft yahei"; height: 0.57rem; line-height: 0.57rem; text-align: right; padding-right: 0.15rem;}
+.container .header .header-r{float: right; width: 3.52rem; height: 1.23rem; }
+.container .header .header-r .search{position: relative; width: 3.11rem; height: 0.46rem;  padding:0.09rem 0 0.16rem 0.42rem;}
+.container .header .header-r .search input{float: right; width: 2.52rem; height: 0.44rem; border:0.01rem solid #054c45; border-radius:0; } 
+.container .header .header-r .search i{float:right; width: 0.55rem; height: 0.46rem;  overflow: hidden;}
+.container .header .header-r .search i img{width: 100%; height: 100%;}
+.container .header .header-r .rel-wrap{width: 3.52rem; height: 0.57rem;}
+.container .header .header-r .rel-wrap .tel{float: right; padding-left: 0.02rem;}
+.container .header .header-r .rel-wrap .tel img{float: left; width: 0.28rem; height: 0.28rem; padding-top: 0.16rem;}
+.container .header .header-r .rel-wrap .tel p{float: left; font-family: "microsoft yahei"; font-size: 0.16rem; height: 0.57rem; line-height: 0.57rem;}
+.container .header .header-r .rel-wrap .qq{padding-left: 0.16rem;}
+
+.container .nav{width: 100%; height: 0.6rem; background-color: #054C45;}
+.container .nav ul{width: 100%;}
+.container .nav ul li{float: left; width: 16.66%; height: 0.6rem;}
+.container .nav ul li a{display: block; text-decoration: none; text-align: center; width: 100%; height: 0.6rem; color:#FFFFFF; font:normal 0.2rem "microsoft yahei"; line-height: 0.6rem;}
+.container .nav ul li.ac{background-color: #999999;}
